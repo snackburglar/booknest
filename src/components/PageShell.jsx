@@ -2,10 +2,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 const navItems = [
-  { href: "/search", label: "Search" },
   { href: "/genres", label: "Genres" },
   { href: "/authors", label: "Authors" },
-  { href: "/about", label: "About" },
+  { href: "/search", label: "Search" },
 ];
 
 function isActivePath(pathname, href) {
@@ -65,6 +64,9 @@ export function PageShell({ children }) {
             </Link>
             <Link href="/contact" className="hover:text-moss">
               Contact
+            </Link>
+            <Link href="/about" className="hover:text-moss">
+              About
             </Link>
           </div>
         </div>
