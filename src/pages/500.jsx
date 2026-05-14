@@ -11,7 +11,7 @@ export default function ErrorPage() {
       </p>
       <Link
         href="/"
-        className="mt-8 inline-flex rounded-md bg-moss px-5 py-3 font-semibold hover:bg-moss/90"
+        className="mt-8 inline-flex rounded-md bg-moss px-5 py-3 text-white font-semibold hover:bg-moss/90"
       >
         Go home
       </Link>

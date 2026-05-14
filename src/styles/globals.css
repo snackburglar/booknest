@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --color-moss: #556b2f;
+  --color-ink: #1f2933;
+}
+
 :root {
   color-scheme: light;
 }
